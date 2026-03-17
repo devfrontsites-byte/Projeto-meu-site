@@ -135,7 +135,7 @@ button:hover {
     font-family: "Orbitron", sans-serif;
     display: flex;
     align-items: center;
-    font-size: 200%;
+    font-size: 150%;
     color: rgb(139, 34, 104);
     gap: 15%;
     background-color: rgba(0, 0, 0, 0.493);
@@ -248,7 +248,7 @@ textarea {
 
 #texto-sobre {
     color: rgb(139, 34, 104);
-    font-size: 30px;
+    font-size: 150%;
     font-family: "Orbitron", sans-serif;
     letter-spacing: 3px;
 
