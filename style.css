@@ -22,13 +22,13 @@ header {
 
 .header-img {
     height: 150px;
-    margin-left: 93%;
+    margin-left: 92%;
     margin-top: -4%;
 }
 
 
 header a {
-
+    font-family: "Orbitron", sans-serif;
     font-size: 150%;
     padding: 10px;
     color: blue;
@@ -46,10 +46,9 @@ header a:hover {
 }
 
 header h1 {
-
+    font-family: "Bitcount Grid Double Ink", system-ui;
     margin-left: 13%;
     font-size: 300%;
-    font-family: 'Times New Roman', Times, serif;
     color: rgb(38, 202, 207);
 
 }
@@ -101,10 +100,11 @@ button:hover {
 }
 
 .botao-contato {
+    font-family: "Orbitron", sans-serif;
     display: flex;
     align-items: center;
     margin-top: 3%;
-    margin-left: -1%;
+    margin-left: 2%;
     background-color: rgba(0, 0, 0, 0.39);
     font-size: 150%;
     color: blue;
@@ -116,6 +116,7 @@ button:hover {
 }
 
 .botao-form {
+    font-family: "Orbitron", sans-serif;
     display: flex;
     align-items: center;
     margin: 10%;
@@ -131,12 +132,14 @@ button:hover {
 }
 
 .text {
+    font-family: "Orbitron", sans-serif;
     display: flex;
     align-items: center;
     font-size: 200%;
     color: rgb(139, 34, 104);
     gap: 15%;
     background-color: rgba(0, 0, 0, 0.493);
+    letter-spacing: 3px;
 }
 
 .text p {
@@ -146,10 +149,10 @@ button:hover {
 
 h2 {
     position: sticky;
-    margin-left: 38%;
+    margin-left: 39%;
     align-items: center;
     font-size: 200%;
-
+    font-family: "Bitcount Grid Double Ink", system-ui;
     color: rgb(143, 15, 132);
 }
 
@@ -158,7 +161,7 @@ h2 {
 
     position: static;
     margin-left: 90%;
-    margin-top: 5%;
+    margin-top: 0%;
     cursor: pointer;
 
 
@@ -193,7 +196,7 @@ h2 {
     flex-direction: column;
     position: fixed;
     Top: 20%;
-    right: 45%;
+    right: 42%;
     padding: 1%;
     border-radius: 5px;
     gap: 20px;
@@ -224,6 +227,85 @@ textarea {
 
 
 
+
+
+
+/* Estilização "sobre - devfront" */
+
+.minha-foto {
+    margin-left: 7%;
+    border-radius: 500px;
+    height: 500px;
+
+}
+
+.minha-foto:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 2s;
+
+}
+
+
+#texto-sobre {
+    color: rgb(139, 34, 104);
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 3px;
+
+}
+
+#texto-sobre:hover {
+    transform: scale(1.1);
+    transition: 3s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 6, 6);
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.main-sobre {
+    background-color: rgba(0, 0, 0, 0.534);
+    display: flex;
+    align-items: center;
+    padding: 4%;
+    gap: 20%;
+
+
+}
+
+#saber-mais {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.418);
+    font-size: 150%;
+    padding: 10px;
+    color: rgb(139, 34, 104);
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    left: 45%;
+    top: 5%;
+}
+
+#saber-mais:hover {
+    color: rgb(39, 17, 235);
+    font-size: 160%;
+    transition: 1s ease-in-out;
+
+
+
+}
+
+
+
+
+/* responsividade */
+
+
+
+
+
 @media screen and (max-width: 1390px) {
 
     .header-img {
@@ -233,16 +315,18 @@ textarea {
 
     h2 {
         margin-left: 37%;
+        font-size: 150%;
 
     }
 
     .text p {
 
         margin-left: 1%;
+        font-size: 70%;
     }
 
     header a {
-
+font-size: 120%;
         margin-left: 0;
     }
 
@@ -266,8 +350,35 @@ textarea {
 
     }
 
-    p {
+    .text p {
         display: none;
+    }
+
+    #texto-sobre {
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 150%;
+
+    }
+
+    .main-sobre {
+        flex-direction: column;
+    }
+
+    #saber-mais {
+        top: 2%;
+        left: 30%;
+    }
+
+    .minha-foto {
+        height: 300px;
+    }
+
+    .minha-foto:hover {
+        transform: none;
+        transition: none;
+
+
     }
 
     h1 {
