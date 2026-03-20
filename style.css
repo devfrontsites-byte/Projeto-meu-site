@@ -309,7 +309,8 @@ textarea {
     gap: 15%;
 
 }
-.h1-portfolio{
+
+.h1-portfolio {
     margin-left: 22%;
 }
 
@@ -521,5 +522,51 @@ textarea {
         height: 50px;
     }
 
+    .main-portfolio {
+        margin-left: 0;
+        margin-right: 4%;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30%;
+    }
 
+    .exemplo-portfolio img {
+        width: 100PX;
+        height: 100PX;
+
+    }
+    .exemplo-portfolio:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .exemplo-portfolio h3 {
+        margin-left: 1%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .exemplo-portfolio{
+        gap: 30px;
+        width: 70%;
+    }
+
+    .exemplo-portfolio2{
+        margin-top: 30%;
+        bottom: 0;
+        gap: 30px;
+        width: 70%;
+        
+    }
+    .exemplo-portfolio2 h3{
+        margin-top: 0;
+    }
+
+    .header-portfolio{
+        margin-left: 15%;
+    }
+.text-port{
+    opacity: 1;
+}
 }
