@@ -304,8 +304,7 @@ textarea {
 
 .main-portfolio {
     margin-left: 5%;
-    margin-top: 7%;
-    display: flex;
+    /* display: flex; */
     gap: 15%;
 
 }
@@ -316,16 +315,23 @@ textarea {
 
 .exemplo-portfolio {
     font-family: "Orbitron", sans-serif;
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    text-align: center;
-    gap: 20px;
-    background-color: rgba(39, 17, 235, 0.274);
-    width: 35%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-left: 7%;
+    margin-top: 0;
+    gap: 400px;
+
+
+}
+
+.projetos {
+
+
+    width: 200%;
+    height: 100%;
     border: none;
     border-radius: 50px;
-
+    text-align: center;
 }
 
 .exemplo-portfolio a {
@@ -333,26 +339,27 @@ textarea {
     cursor: pointer;
 }
 
-.exemplo-portfolio:hover {
-
+.projetos:hover {
+    background-color: rgba(39, 17, 235, 0.274);
     transform: scale(1.1);
-    transition: ease-in-out 2s;
+    transition: ease-in-out 1s;
+
 
 }
 
 
 .exemplo-portfolio img {
     margin-top: 5%;
-    height: 300px;
-    width: 300px;
+    width: 60%;
     border-radius: 100px;
 }
 
 
 .exemplo-portfolio h3 {
     color: rgb(139, 34, 104);
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 3%;
+    text-align: center;
 
 }
 
@@ -362,7 +369,7 @@ textarea {
 
 }
 
-.exemplo-portfolio:hover .text-port {
+.projetos:hover .text-port {
     opacity: 1;
 }
 
@@ -537,7 +544,8 @@ textarea {
         height: 100PX;
 
     }
-    .exemplo-portfolio:hover{
+
+    .exemplo-portfolio:hover {
         transform: none;
         transition: none;
     }
@@ -547,26 +555,29 @@ textarea {
         text-align: center;
         font-size: 15px;
     }
-    .exemplo-portfolio{
+
+    .exemplo-portfolio {
         gap: 30px;
         width: 70%;
     }
 
-    .exemplo-portfolio2{
+    .exemplo-portfolio2 {
         margin-top: 30%;
         bottom: 0;
         gap: 30px;
         width: 70%;
-        
+
     }
-    .exemplo-portfolio2 h3{
+
+    .exemplo-portfolio2 h3 {
         margin-top: 0;
     }
 
-    .header-portfolio{
+    .header-portfolio {
         margin-left: 15%;
     }
-.text-port{
-    opacity: 1;
-}
+
+    .text-port {
+        opacity: 1;
+    }
 }
